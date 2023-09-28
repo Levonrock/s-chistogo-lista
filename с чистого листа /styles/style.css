@@ -1,0 +1,222 @@
+@import url(../fonts/fonts.css);
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  margin: auto;
+  min-height: 100px;
+}
+.content-section_theme_dark {
+  color: #fff;
+  background-color: #131313;
+}
+.content-section_theme_bright {
+  color: #131313;
+  background-color: #fee42a;
+}
+.header {
+  padding: 24px 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  padding: 24px 20px;
+}
+.header_logo {
+  display: block;
+  width: 78px;
+}
+.header_logo-image {
+  width: 100%;
+}
+.header_menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  list-style: none;
+}
+
+.header_menu-link {
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.header_menu-item_active .header_menu_-link {
+  text-decoration: none;
+}
+
+.cover {
+  min-height: 258px;
+  padding: 7px 24px 32px 20px;
+  background-image: url(../images/cover.svg);
+  background-repeat: no-repeat;
+  background-position: right center; /* сначала по горизонтале, потом по вертикале*/
+  background-size: 95% auto;
+}
+
+.cover_title {
+  color: #fff;
+  font-family: "EB Garamond", serif;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.accent-span {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.intro {
+  padding: 0 20px 38px;
+}
+
+.intro-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 22px;
+  color: #ccc;
+  font-size: 16px;
+}
+.intro_title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.intro_date {
+  font-size: 16px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
+
+.intro_main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 24px;
+  color: #f5f5f5;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+.content-section_subtitle {
+  margin-bottom: 32px;
+  font-family: "EB Garamond", 'serif';
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.15;
+  font-style: normal;
+}
+
+.content-section_introduction {
+  font-size: 20px;
+  line-height: 1.35;
+  margin-bottom: 32px;
+}
+
+.content-section_list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.content-section_list-accent {
+  font-weight: 700;
+}
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  list-style: none;
+}
+
+.card_theme_dark {
+  color: #f5f5f5;
+  background-color: #343434
+}
+
+.card_theme_bright {
+  color: #141414;
+  background-color: #fee42a;
+}
+.card_author-photo {
+  display: block;
+  width: 100px;
+  border-radius: 50px;
+}
+
+.card_author-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+.card-title {
+  
+  font-family: 'EB Garamond', 'serif';
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.card {
+  border-radius: 30px;
+  padding: 20px
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  list-style: none;
+}
+
+
+.card_text {
+  font-size: 16px;
+  line-height: 1.35;
+  margin-top: 8px;
+}
+
+
+.footer {
+  padding: 20px;
+}
